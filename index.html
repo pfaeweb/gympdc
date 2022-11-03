@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="estilo.css" rel="stylesheet">
+<title>Document</title>
+</head>
+<body>
+    <div id="bandera-full" class="bandera-completa oculto">
+        <img src="209-canarias_400px.jpg" alt="bandera completa">
+    </div>
+
+    <button class="ayuda" id="boton-ayuda">Mostrar ayuda</button>
+    
+    <div class="cartas-bandera">
+        <div id="linea-2" class="linea-bandera-2" onclick="seleccionarLinea(2)"><img src="2.jpg" alt="linea-bandera-2"></div>
+        <div id="linea-3" class="linea-bandera-3" onclick="seleccionarLinea(3)"><img src="3.jpg" alt="linea-bandera-3"></div>
+        <div id="linea-1" class="linea-bandera-1" onclick="seleccionarLinea(1)"><img src="1.jpg" alt="linea-bandera-1"></div>
+    </div>
+
+    <div class="huecos-bandera">
+        <div id="hueco-1" class="hueco-bandera-1" onclick="seleccionarHueco(1)"><img src="1.jpg" alt="bandera-1" class="oculto"></div>
+        <div id="hueco-2" class="hueco-bandera-2" onclick="seleccionarHueco(2)"><img src="2.jpg" alt="bandera-2" class="oculto"></div>
+        <div id="hueco-3" class="hueco-bandera-3" onclick="seleccionarHueco(3)"><img src="3.jpg" alt="bandera-3" class="oculto"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

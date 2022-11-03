@@ -1,0 +1,29 @@
+body{
+    background-color: gray;
+}
+.bandera-completa{
+    display: flex;
+    justify-content: center;
+}
+.oculto{
+    display: none; 
+}
+.mostrar{
+    display: flex;
+}
+.cartas-bandera{
+    display: flex;
+    justify-content: center;
+    column-gap: 1em;
+}
+.huecos-bandera{
+    display: flex;
+    justify-content: center;
+    column-gap: 1em;
+    margin-top: 1em;
+}
+.hueco-bandera-1, .hueco-bandera-2, .hueco-bandera-3{
+    background-color: darkgray;
+    width: 138px;
+    height: 276px;
+}
